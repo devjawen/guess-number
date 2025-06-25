@@ -1,0 +1,24 @@
+{
+  "name": "guess-number",
+  "version": "1.0.0",
+  "description": "Bu proje, Node.js kullanılarak geliştirilen basit bir **komut satırı sayı tahmin oyunudur**.  \r Amaç, bilgisayarın rastgele tuttuğu sayıyı doğru tahmin etmektir!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjawen/guess-number.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devjawen/guess-number/issues"
+  },
+  "homepage": "https://github.com/devjawen/guess-number#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
