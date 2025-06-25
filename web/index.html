@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sayı Tahmin Oyunu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Sayı Tahmin Oyunu</h1>
+    <p>1 ile <span id="max-value">100</span> arasında bir sayı tuttum. Tahmin et bakalım!</p>
+
+    <input type="number" id="guess-input" placeholder="Tahminin..." />
+    <button id="guess-btn">Tahmin Et</button>
+
+    <p id="message"></p>
+    <p id="attempts-info"></p>
+    <button id="restart-btn" style="display: none;">↻ Yeniden Oyna</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
