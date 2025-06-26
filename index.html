@@ -7,16 +7,25 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>🎯 Sayı Tahmin Oyunu</h1>
-    <p>1 ile <span id="max-value">100</span> arasında bir sayı tuttum. Tahmin et bakalım!</p>
+  <div class="app-container">
+    <div class="app-header">🎯 Sayı Tahmin Oyunu</div>
 
-    <input type="number" id="guess-input" placeholder="Tahminin..." />
-    <button id="guess-btn">Tahmin Et</button>
+    <div class="game-box">
+      <p class="info-text">
+        1 ile <span id="max-value">100</span> arasında bir sayı tuttum. Tahmin et!
+      </p>
 
-    <p id="message"></p>
-    <p id="attempts-info"></p>
-    <button id="restart-btn" style="display: none;">↻ Yeniden Oyna</button>
+      <input type="number" id="guess-input" placeholder="Tahminin..." />
+
+      <button id="guess-btn">🎲 Tahmin Et</button>
+
+      <p id="message"></p>
+      <p id="attempts-info"></p>
+
+      <button id="restart-btn" style="display: none;">↻ Yeniden Oyna</button>
+    </div>
+
+    <p class="footer-text">Made with ❤️ by Jawen</p>
   </div>
 
   <script src="script.js"></script>
