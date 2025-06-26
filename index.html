@@ -4,7 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sayı Tahmin Oyunu</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- Dinamik stil yüklemesi (önbelleği atlar) -->
+  <script>
+    const timestamp = new Date().getTime();
+    const style = document.createElement("link");
+    style.rel = "stylesheet";
+    style.href = `style.css?v=${timestamp}`;
+    document.head.appendChild(style);
+  </script>
 </head>
 <body>
   <div class="app-container">
@@ -28,6 +36,11 @@
     <p class="footer-text">Made with ❤️ by Jawen</p>
   </div>
 
-  <script src="script.js"></script>
+  <!-- Dinamik script yüklemesi (önbelleği atlar) -->
+  <script>
+    const script = document.createElement("script");
+    script.src = `script.js?v=${timestamp}`;
+    document.body.appendChild(script);
+  </script>
 </body>
 </html>
